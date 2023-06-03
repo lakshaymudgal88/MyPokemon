@@ -48,7 +48,7 @@ fun PokemonListScreen(
         modifier = Modifier.fillMaxSize()
     ) {
         Column {
-            Spacer(modifier = Modifier.height(20.dp))
+            Spacer(modifier = Modifier.height(90.dp))
             Image(
                 painter = painterResource(id = R.drawable.ic_pokemon_logo),
                 contentDescription = "Pokemon",
