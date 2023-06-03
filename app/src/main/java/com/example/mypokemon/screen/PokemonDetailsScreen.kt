@@ -46,7 +46,7 @@ fun PokemonDetailScreen(
     dominantColor: Color,
     pokemonName: String,
     pokemonInfoViewModel: PokemonInfoViewModel = hiltViewModel(),
-    topPadding: Dp = 20.dp,
+    topPadding: Dp = 40.dp,
     imageSize: Dp = 200.dp,
 ) {
 
@@ -133,7 +133,7 @@ fun TopSection(
             tint = Color.White,
             modifier = Modifier
                 .size(36.dp)
-                .offset(16.dp, 16.dp)
+                .offset(16.dp, 40.dp)
                 .clickable {
                     navController.popBackStack()
                 }
